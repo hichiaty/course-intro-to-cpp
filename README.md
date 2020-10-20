@@ -21,14 +21,6 @@ In short, you will
 * be able to understand and edit more complicated C++ programs you have been given,
 * feel comfortable searching online for help.
 
-## YouTube videos for distance learning
-Timestamps are in the descriptions and correspond to the numbering in this document.
-* [Part 0: Pre-course instructions](https://www.youtube.com/watch?v=fk4msOijTtU)
-* [Part 1](https://youtu.be/wGOPWMY80lw). You must have C++ set up on your machine before starting.
-* [Part 2](https://www.youtube.com/watch?v=4xHiVH4_XGo)
-* [Part 3](https://www.youtube.com/watch?v=qCHm1EjD-JI)
-* [Playlist](https://www.youtube.com/playlist?list=PLcRp2oAQBugtTRlYYarxVyrtwDHS5Mtiw)
-
 ## Part 0. Setting up C++
 
 For some programming languages, like Matlab, there is just one program you need to open to write your code and then run it. For others, like C++, you will need one program to write your code, and then one program to *compile* it.
@@ -953,6 +945,14 @@ First let's check that you haven't already got a C++ compiler on your computer. 
 ## A2. Extra stuff we won't do
 
 ### Debugging
+
+## A3. YouTube videos for distance learning
+Timestamps are in the descriptions and correspond to the numbering in this document.
+* [Part 0: Pre-course instructions](https://www.youtube.com/watch?v=fk4msOijTtU)
+* [Part 1](https://youtu.be/wGOPWMY80lw). You must have C++ set up on your machine before starting.
+* [Part 2](https://www.youtube.com/watch?v=4xHiVH4_XGo)
+* [Part 3](https://www.youtube.com/watch?v=qCHm1EjD-JI)
+* [Playlist](https://www.youtube.com/playlist?list=PLcRp2oAQBugtTRlYYarxVyrtwDHS5Mtiw)
 
 # Licence
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Licence](http://creativecommons.org/licenses/by-nc-sa/4.0/).
