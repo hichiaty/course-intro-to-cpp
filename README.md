@@ -1,7 +1,7 @@
 # CM Hub: Introduction to C++
 Introduction to C++ course for the CM Hub at Imperial College
 
-* **Part 0:** Setting up C++
+* **Part 0:** Setting up C++ (**Please set this up on your machines before the workshop!**) 
 * **Part 1:** Hello world! Your first steps with C++
 * **Part 2:** Arrays, files and functions
 * **Part 3:** Pointers, classes and preparing for real science
