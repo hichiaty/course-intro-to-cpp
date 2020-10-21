@@ -947,7 +947,7 @@ First let's check that you haven't already got a C++ compiler on your computer. 
 ### Debugging
 
 ## A3. YouTube videos for distance learning
-Timestamps are in the descriptions and correspond to the numbering in this document.
+Timestamps are in the descriptions and correspond to the numbering in this document. Content in the videos may differ slightly. 
 * [Part 0: Pre-course instructions](https://www.youtube.com/watch?v=fk4msOijTtU)
 * [Part 1](https://youtu.be/wGOPWMY80lw). You must have C++ set up on your machine before starting.
 * [Part 2](https://www.youtube.com/watch?v=4xHiVH4_XGo)
