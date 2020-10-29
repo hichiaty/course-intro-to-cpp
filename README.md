@@ -424,10 +424,6 @@ Try:
     * Set up a 10x10 array `product`.
     * Loop through all rows and columns, so that `product[row][col] = row * col;`
     * Loop through all rows and columns again, `cout`ing appropriately the elements of the table.
-* Edit `read_from_file.cpp` so that it reads in a list of numbers from `numbers.txt` (no more than 10 numbers long), puts them in an array, and then calculates the mean of those numbers.
-
- Join in:
- * `const int n = 10;`
 
 ### 11. Functions and header files
 
