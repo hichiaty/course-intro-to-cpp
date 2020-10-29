@@ -416,8 +416,6 @@ int main()
 * Multidimensional arrays work too
     * `int magic_square[3][3] = {{4,9,2},{3,5,7},{8,1,6}};`
 
-* Some basic functionality exists
-    * `    max_favourite = *max_element(favourite_numbers,favourite_numbers+10);`
 
 Try:
 * Create a new file `multiplication_table.cpp`. We are going to make it print a 10x10 multiplication table. Make it:
