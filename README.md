@@ -618,7 +618,7 @@ c++ sign_function.cpp absolute_value.cpp learning_functions.cpp -o sign
 all:
     c++ sign_function.cpp absolute_value.cpp learning_functions.cpp -o sign
 ```
-* (note you need a tab at the beginning, not spaces. Might need to be careful in Atom)
+* (note you need a tab at the beginning, not spaces. Might need to be careful in Atom. If it doesn't work try disabling 'soft tab' setting or use another editor like Notepad.)
 * Then run `make all`
 
 
@@ -643,7 +643,8 @@ int main(){
 }
 ```
 * The `&` sign indicates an address in memory.
-* A *pointer* is a variable whose value is the address of another variable, and is notated with a `*`
+* A *pointer* is a variable whose value is the address of another variable (eg. p = '&x'), and is notated with a `*`. 
+* "\*pointer" means the value at the address the pointer is pointing at (eg. \*pointer = x) 
 
 ```c++
 #include <iostream>
@@ -823,7 +824,7 @@ Your turn:
 
 * Put the class declaration and `set_dimensions` definition in a header file, `rectangle.hpp`, and call it from `rectangles.cpp`
 
-Your turn:
+For extra practice:
 
 * Create a class `complex_number`. Set up some functions for adding and multiplying them.
 
