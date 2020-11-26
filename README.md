@@ -853,14 +853,14 @@ int main()
 
 Other stuff you can do with this library include: complex conjugates, projections, finding norms etc. 
 
-### 18 Optimisation
+### 18. Optimisation
 * When compiling, use the flag `-O2` to optimise for speed a little bit. Use `-O3` for more optimisation. `-O0` is the default. Example:
 ```bash
 c++ helloworld.cpp -o hello -O3
 ```
 Note: This will make the compile time LONGER, but runtime faster and more efficient! 
 
-### 19 Other things we won't explore but worth looking into! 
+### 19. Other things we won't explore but worth looking into! 
 * Parallelisation and HPC - OpenMP 
 * Particle physics data processing - ROOT framework (https://root.cern/) 
 * More HPC - OpenMPI
