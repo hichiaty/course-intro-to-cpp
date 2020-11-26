@@ -828,7 +828,45 @@ For extra practice:
 
 * Create a class `complex_number`. Set up some functions for adding and multiplying them.
 
-### 16. Armadillo, for vectors and matrices
+
+### 16. Complex numbers: use `<complex>` library
+
+* If you work in maths or physics, you might need to incorporate complex numbers into your code.
+
+```c++
+#include <iostream>
+#include <complex>
+
+using namespace std;
+
+int main()
+{
+  // define the complex number: (10 + 2i)
+  complex<double> mycomplex(10.0, 2.0);
+
+  // prints the real part using the real function
+  cout << "Real part: " << real(mycomplex) << endl;
+  cout << "Imaginary part: " << imag(mycomplex) << endl;
+  return 0;
+}
+```
+
+Other stuff you can do with this library include: complex conjugates, projections, finding norms etc. 
+
+### 18 Optimisation
+* When compiling, use the flag `-O2` to optimise for speed a little bit. Use `-O3` for more optimisation. `-O0` is the default. Example:
+```bash
+c++ helloworld.cpp -o hello -O3
+```
+Note: This will make the compile time LONGER, but runtime faster and more efficient! 
+
+### 19 Other things we won't explore but worth looking into! 
+* Parallelisation and HPC - OpenMP 
+* Particle physics data processing - ROOT framework (https://root.cern/) 
+* More HPC - OpenMPI
+* A number of libraries for ML
+
+### 20. (Try this at home) Armadillo, for vectors and matrices
 
 [Armadillo](http://arma.sourceforge.net/) is a linear algebra library for C++ which uses syntax quite similar to that used in Matlab or Python (with NumPy). Setup is different for different operating systems but the instructions are pretty good.
 
@@ -899,16 +937,7 @@ Compile:
 
 We should get the solution: *x* = 19, *y* = –14, *z* = –4.
 
-### 17. More libraries for mathematics
 
-* Complex numbers: use `<complex>` library
-* Parallel processing: use OpenMP
-
-### 18. Optimisation
-* When compiling, use the flag `-O2` to optimise for speed a little bit. Use `-O3` for more optimisation. `-O0` is the default. Example:
-```bash
-c++ helloworld.cpp -o hello -O3
-```
 
 # Appendix
 
@@ -937,11 +966,8 @@ First let's check that you haven't already got a C++ compiler on your computer. 
 4. To install the compiler, follow the instructions [on this YouTube video](https://www.youtube.com/watch?v=sXW2VLrQ3Bs). Is this awkward? Yes. Is it worth it? Yes!
 5. Check that it works by following steps 1--3 above.
 
-## A2. Extra stuff we won't do
 
-### Debugging
-
-## A3. YouTube videos for distance learning
+## A2. YouTube videos for distance learning
 Timestamps are in the descriptions and correspond to the numbering in this document. Content in the videos may differ slightly. 
 * [Part 0: Pre-course instructions](https://www.youtube.com/watch?v=fk4msOijTtU)
 * [Part 1](https://youtu.be/wGOPWMY80lw). You must have C++ set up on your machine before starting.
