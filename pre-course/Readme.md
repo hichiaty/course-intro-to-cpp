@@ -1,12 +1,12 @@
 # Pre-course Introduction to programming concepts
 
-There are many programming languages around, each with their own strengths and weaknesses. These languages may seem different and some are indeed more suited for different tasks, but the underlying programming are usually shared between them. Such differences between languages may include:
+There are many programming languages around, each with their own strengths and weaknesses. These languages may seem different and some are indeed more suited for different tasks, but the underlying programming concepts are usually shared between them. Such differences between languages may include:
 * Syntax
 * Typing (Strongly Typed and Weakly/Loosely Typed)
 * Execution
 
 ## Data Types
-At the centre of all computer programs is some data, or collections of data (Data Structures) which is being manipulated by the program logic to give a desired result. Data structures can be very complex and abstract, in this section, we will consider simple data types which are present in almost all programming languages. We will first identify what they are, and look at what operations can be used to manipulate them.
+At the centre of all computer programs is some data, or collections of data (Data Structures) which is being manipulated by the program logic to give a desired result. Data structures can be very complex and abstract. In this section, we will consider simple data types which are present in almost all programming languages. We will first identify what they are, and look at what operations can be used to manipulate them.
 
 - int
 - float
@@ -53,7 +53,7 @@ int main() // main function header (see functions section below)
 for more examples regarding variables in C++, please refer to the Variables section in the distance learning videos [here](https://youtu.be/wGOPWMY80lw?t=1295)
 
 ## Conditionals: making decisions
-Life is full of decision making. The same applies to any minimally versatile program. In most scenarios, your program will need to execute different instructions depending on some criteria/**conditions** that must be met, if they're not, then execute something *else*. An example from daily life would be: if you are hungry, grab a snack; if you are not hungry, don't! All programming languages provide mechanisms to conditionally execute a piece of code. In C++ it takes the form:
+In most scenarios, your program will need to execute different instructions depending on some criteria/**conditions** that must be met, if they're not, then execute something *else*. An example from daily life would be: if you are hungry, grab a snack; if you are not hungry, don't! All programming languages provide mechanisms to conditionally execute a piece of code. In C++ it takes the form:
 
 ```C++
 int main()
@@ -127,7 +127,7 @@ A fully worked example of this in C++ is given in the `while_example.cpp` file.
 for more examples regarding loops in C++, please refer to the for and while loops section in the distance learning videos [here](https://youtu.be/wGOPWMY80lw?t=4240)
 
 ## Functions: splitting our logic into chunks
-We now know some of the major tools we have to be able to program and build complex programs from the relatively simple pieces of language we covered. However, it is convenient, and in practical terms even essential, to provide some structure to our programs by grouping bits of code together in order to achieve a more complex task when combined.
+We now know some of the major tools we have to be able to program and build complex programs from the relatively simple pieces of programming concepts we covered. However, it is convenient, and in practical terms even essential, to provide some structure to our programs by grouping bits of code together in order to achieve a more complex task when combined.
 
 To perform more complex operations on data we will be using the main code structuring mechanism available in most languages: **functions**.
 So far we have already encountered one core C++ function, `main()`. This function is known as the *entry-point* of a C++ program. i.e. 'the bit of code' that runs first when you open your program. Within this `main()` function, you can have all your code, or you can *call* other functions that contain your code. 

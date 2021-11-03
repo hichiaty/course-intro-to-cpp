@@ -1,0 +1,47 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+*.pyd
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Logs
+.log
+.tlog
+
+# Build
+/Builds/VisualStudio2019/x64/*
+/Builds/VisualStudio2019/.vs/*
+
+# Notebook Checkpoints
+*.ipynb_checkpoints
+
+# VS Code
+.vscode/

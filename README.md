@@ -1,7 +1,8 @@
-# CM Hub: Introduction to C++
-Introduction to C++ course for the CM Hub at Imperial College
+# Introduction to C++
+Introduction to C++ course for the Graduate School at Imperial College
 
-* **Part 0:** Setting up C++ (**Please set this up on your machines before the workshop!**) 
+* **Part 0:** [Setting up C++](#appendix) (**Please set this up on your machines before the workshop!**) 
+* **Part 0.5 (optional):** [Pre-course Introduction to programming concepts](https://github.com/hichiaty/course-intro-to-cpp/tree/master/pre-course)
 * **Part 1:** Hello world! Your first steps with C++
 * **Part 2:** Arrays, files and functions
 * **Part 3:** Pointers, classes and preparing for real science
@@ -866,7 +867,7 @@ Note: This will make the compile time LONGER, but runtime faster and more effici
 * More HPC - OpenMPI
 * A number of libraries for ML
 
-### 20. (Try this at home) Armadillo, for vectors and matrices
+### 20. (Extra) Armadillo, for vectors and matrices
 
 [Armadillo](http://arma.sourceforge.net/) is a linear algebra library for C++ which uses syntax quite similar to that used in Matlab or Python (with NumPy). Setup is different for different operating systems but the instructions are pretty good.
 
@@ -890,6 +891,7 @@ using namespace arma;
 
 int main()
 {
+    arma_rng::set_seed_random();
     mat A = randu<mat>(4,5);
     mat B = randu<mat>(4,5);
 
@@ -900,8 +902,8 @@ int main()
 ```
 
 Compile:
-* (On your own machine) `c++ armadillo_test.cpp -o armadillo_test -I ~/cpp/armadillo-9.870.2/include -llapack -lblas`
-* (On college machines) `c++ armadillo_test.cpp -o armadillo_test -I H:/cpp/armadillo-9.870.2/include -llapack -lblas`
+* (On your own Mac/Linux machine) `c++ armadillo_test.cpp -o armadillo_test -I path_to_armadillo_include -llapack -lblas`
+* (On college machines or your own Windows machine) `g++ armadillo_test.cpp -o armadillo_test -I path_to_armadillo_include -llapack -lblas -static-libstdc++`
 
 * New file: `armadillo_equations.cpp`:
 
@@ -932,8 +934,8 @@ int main()
 ```
 
 Compile:
-* (On your own machine) `c++ armadillo_equations.cpp -o armadillo_equations -I ~/cpp/armadillo-9.200.8/include -llapack -lblas`
-* (On college machines) `c++ armadillo_equations.cpp -o armadillo_equations -I H:/cpp/armadillo-9.200.8/include -llapack -lblas`
+* (On your own machine) `c++ armadillo_equations.cpp -o armadillo_equations -Ipath_to_armadillo_include -llapack -lblas`
+* (On college machines or your own Windows machine) `g++ armadillo_equations.cpp -o armadillo_equations -I path_to_armadillo_include -llapack -lblas -static-libstdc++`
 
 We should get the solution: *x* = 19, *y* = –14, *z* = –4.
 
@@ -956,6 +958,7 @@ A C++ compiler should be installed by default on macOS and most Linux distributi
 1. Open Terminal.
 2. Type `c++` and press Enter.
 3. If it says `clang: error: no input files` or `c++: fatal error: no input files`, then you are ready to go.
+4. For Mac, if you don't see either of the error messages in 3. run `xcode-select --install` in terminal and try again.
 
 #### Instructions for Windows (your own computer)
 First let's check that you haven't already got a C++ compiler on your computer. If you have installed Fortran in the past, you might already have a C++ compiler.
@@ -963,7 +966,7 @@ First let's check that you haven't already got a C++ compiler on your computer. 
 1. Open Command Prompt from the Start menu (right-click the Start button and select Command Prompt).
 2. Type `g++` and press Enter.
 3. If you get the error `g++: fatal error: no input files`, then you are good to go. If you get a different message, you don't have a C++ compiler installed and should continue following these instructions.
-4. To install the compiler, follow the instructions [on this YouTube video](https://www.youtube.com/watch?v=sXW2VLrQ3Bs). Is this awkward? Yes. Is it worth it? Yes!
+4. To install the compiler, follow the instructions [on this YouTube video](https://www.youtube.com/watch?v=jfVqzNU3gPg). Is this awkward? Yes. Is it worth it? Yes!
 5. Check that it works by following steps 1--3 above.
 
 
