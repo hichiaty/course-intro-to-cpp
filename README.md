@@ -115,6 +115,7 @@ and on Mac/Linux, with
 
 Try:
 * Adding an extra line to the message
+* Adding an extra line to your message without adding an extra line to your code
 
 ### 4. Use of variables
 Join in:
@@ -158,7 +159,7 @@ int main()
 * Compile and run.
 
 Your turn:
-* Change the code so that it also prints out the product of *x* and *y*.
+* Change the code so that it also prints out the product of *x* and *y* on a new line.
 
 ### 5. Command-line input
 Join in:
