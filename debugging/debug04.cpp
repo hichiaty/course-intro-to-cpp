@@ -15,7 +15,7 @@ int main()
 }
 
 string greet(string name){
-    if (name == "Adam"){
+    if (name == "Hisham"){
         return "You're the best, " + name;
     } else {
         return "Oh it's you again is it, " + name + "?";
