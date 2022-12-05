@@ -30,15 +30,15 @@ A *compiler* is a program which takes the text file we have written and turns it
 
 We are going to have two windows open at the same time:
 
-1. A text editor (we are going to use [Atom](https://atom.io/))
+1. A text editor (we are going to use [VSCode](https://code.visualstudio.com/))
 2. The command line or terminal, where a C++ compiler has already been installed and is working
 
 *Integrated Development Environments* (IDEs) also exist, which often combine a text editor and compiler in one useful program: XCode, Code::Blocks and (to a lesser degree) Visual Studio Code are examples. In scientific computing, we typically develop on different machines to those we end up running on, so in this class we will keep the two ideas separate.
 
 ### Getting C++ set up on the college computers running Windows
 1. Open a browser and navigate to Imperial College [Software Hub](https://softwarehub.imperial.ac.uk/?labs)
-2. Search for `atom` in the search box
-3. The Atom text editor is one of the few search results. Just click `launch`  - done!
+2. Search for `Visual Studio Code` in the search box
+3. Visual Studio Code is one of the few search results. Just click `launch`  - done!
 4. Clear the search box and then search for `mingw` in the search box
 5. Among the small set of search results that pop up, launch `MinGW 1.0` (the newer version plays badly with Armadillo).
 6. You are all set!
@@ -83,7 +83,7 @@ In short: C++ is a robust, fast language whose steep learning curve makes it wor
 
 ### 3. Hello world!
 
-* Open up Atom
+* Open up VSCode
 
 ```c++
 #include <iostream>
@@ -620,7 +620,7 @@ c++ sign_function.cpp absolute_value.cpp learning_functions.cpp -o sign
 all:
     c++ sign_function.cpp absolute_value.cpp learning_functions.cpp -o sign
 ```
-* (note you need a tab at the beginning, not spaces. Might need to be careful in Atom. If it doesn't work try disabling 'soft tab' setting or use another editor like Notepad.)
+* (note you need a tab at the beginning, not spaces. Might need to be careful in most text editors. If it doesn't work try disabling 'soft tab' setting or use another editor like Notepad++.)
 * Then run `make all`
 
 
@@ -948,7 +948,7 @@ We should get the solution: *x* = 19, *y* = –14, *z* = –4.
 Follow the instructions below, depending on which type of machine you will use.
 
 ### Step 1: Have a text editor ready
-We are going to be writing our code in a text editor. This is a program which lets us produce plain text files. There are lots of choices available, but we recommend downloading [Atom](https://atom.io/).
+We are going to be writing our code in a text editor. This is a program which lets us produce plain text files. There are lots of choices available, but we recommend downloading [VSCode](https://code.visualstudio.com/).
 
 ### Step 2: Have a C++ compiler installed and working
 A compiler is a program which takes the text file we have written and turns it into something we can run. Compilers do not look like normal programs, with windows and graphics. Instead they are run using the command line. We will discuss this in class but for now, follow the instructions below, depending on which type of machine you will use.
@@ -967,7 +967,7 @@ First let's check that you haven't already got a C++ compiler on your computer. 
 1. Open Command Prompt from the Start menu (right-click the Start button and select Command Prompt).
 2. Type `g++` and press Enter.
 3. If you get the error `g++: fatal error: no input files`, then you are good to go. If you get a different message, you don't have a C++ compiler installed and should continue following these instructions.
-4. To install the compiler, follow the instructions [on this YouTube video](https://www.youtube.com/watch?v=jfVqzNU3gPg). Is this awkward? Yes. Is it worth it? Yes!
+4. To install the compiler, follow the instructions [on this YouTube video](https://www.youtube.com/watch?v=jfVqzNU3gPg).  Alternitavely you can install the windows subsystem for linux (WSL) and install a linux distribution from the Microsoft store. This is a bit more complicated and larger but will give you a linux environment on your windows machine with a C++ compiler pre-installed (I will be using WSL2 Ubuntu throughout the course). Is this awkward? Yes. Is it worth it? Yes!
 5. Check that it works by following steps 1--3 above.
 
 
